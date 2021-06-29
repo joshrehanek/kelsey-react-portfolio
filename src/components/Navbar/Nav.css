@@ -19,7 +19,7 @@
   }
   
   .navbar-logo {
-    color: rgb(219, 28, 210);
+    color: rgb(28, 219, 146);
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -51,11 +51,11 @@
   }
   
   .nav-item {
-    height: 80px;
+   
   }
   
   .nav-links {
-    color:rgb(219, 28, 210);;
+    color:rgb(28, 219, 155);;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -64,15 +64,13 @@
   }
   
   .nav-links:hover {
-    border-top: 4px solid #111;
-    border-bottom: 4px solid #111;
     color:#fff;
     transition: all 0.1s ease-out;
     text-decoration: none;
   }
   
   .fa-bars {
-    color:rgb(219, 28, 210);
+    color:rgb(28, 219, 155);
   }
   
   .menu-icon {
