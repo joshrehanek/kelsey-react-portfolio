@@ -19,15 +19,33 @@ export default function Navbar() {
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                    <li className='nav-item'>
-                        <Link
-                        to='/'
-                        className='nav-links'
-                        onClick={closeMobileMenu}>
-                            Home
-                        </Link>
-                    </li>
-                    
+                        <li className='nav-item'>
+                            <Link
+                                to='/'
+                                className='nav-links'
+                                onClick={closeMobileMenu}>
+                                Home
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link
+                                to='/#bio'
+                                className='nav-links'
+                                onClick={closeMobileMenu}
+                            >
+                                Bio
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link
+                                to='/#prjects'
+                                className='nav-links'
+                                onClick={closeMobileMenu}
+                            >
+                                Projects
+                            </Link>
+                        </li>
+                        
                     </ul>
                 </div>
             </nav>
