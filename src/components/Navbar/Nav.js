@@ -23,7 +23,8 @@ export default function Navbar() {
                             <Link
                                 to='/'
                                 className='nav-links'
-                                onClick={closeMobileMenu}>
+                                onClick={closeMobileMenu}
+                            >
                                 Home
                             </Link>
                         </li>
@@ -67,5 +68,5 @@ export default function Navbar() {
                 </div>
             </nav>
         </>
-    )
+    );
 }
