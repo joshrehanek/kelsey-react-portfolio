@@ -38,6 +38,15 @@ export default function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link
+                                to='/#education'
+                                className='nav-links'
+                                onClick={closeMobileMenu}
+                            >
+                                Education
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link
                                 to='/#prjects'
                                 className='nav-links'
                                 onClick={closeMobileMenu}
@@ -45,7 +54,15 @@ export default function Navbar() {
                                 Projects
                             </Link>
                         </li>
-                        
+                        <li className='nav-item'>
+                            <Link
+                                to='/#contact'
+                                className='nav-links'
+                                onClick={closeMobileMenu}
+                            >
+                                Contact
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </nav>
