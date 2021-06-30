@@ -1,0 +1,18 @@
+h2 {
+  color: rgb(255, 255, 255);
+}
+
+.heading {
+  text-align: center;
+}
+
+.footer-contact {
+  justify-content: center;
+  min-height: 400px;
+  background-color: rgb(158, 185, 131);
+  color: rgb(0, 0, 0);
+}
+
+.contactInfoBox {
+  background-color: rgb(158, 185, 131);
+}
