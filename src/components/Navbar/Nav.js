@@ -9,7 +9,7 @@ export default function Navbar() {
 
 
     return (
-        <header className='navbar'>
+        <header className='nav'>
             <nav>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
