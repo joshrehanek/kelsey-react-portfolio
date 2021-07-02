@@ -12,7 +12,7 @@ export default function Navbar() {
         <header className='nav'>
             <nav>
                 <div className='navbar-container'>
-                    <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+                    <Link to='/#home' className='navbar-logo' onClick={closeMobileMenu}>
                         KCS
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
@@ -21,7 +21,7 @@ export default function Navbar() {
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
                             <Link
-                                to='/'
+                                to='/#home'
                                 className='nav-links'
                                 onClick={closeMobileMenu}
                             >
