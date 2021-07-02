@@ -10,18 +10,7 @@ export default function Footer() {
                 </div>
                 <div class="content">
                     <div class="contactInfo">
-                        <div class="contactInfoBox">
-                            <div class="box">
-                                <div class="icon">
-                                    <i class="fas fa-street-view"></i>
-                                </div>
-                                <div class="text">
-                                    <h3>Address</h3>
-                                    <p>5528 NE 14th Ave,
-                                    Portland, Oregon
-                                    97211</p>
-                                </div>
-                            </div>
+                        <div class="contactInfoBox"> 
                             <div class="box">
                                 <div class="icon">
                                     <i class="fas fa-phone-alt"></i>
