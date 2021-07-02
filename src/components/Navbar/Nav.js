@@ -9,8 +9,8 @@ export default function Navbar() {
 
 
     return (
-        <>
-            <nav className='navbar'>
+        <header className='navbar'>
+            <nav>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
                         KCS
@@ -67,6 +67,6 @@ export default function Navbar() {
                     </ul>
                 </div>
             </nav>
-        </>
+        </header>
     );
 }
