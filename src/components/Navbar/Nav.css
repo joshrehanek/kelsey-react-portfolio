@@ -112,7 +112,7 @@
   
     .nav-links:hover {
       background-color: rgb(255, 255, 255);
-      color: #fff;
+      color: rgb(26, 23, 23);
       border-radius: 0;
       text-decoration: none;
   }
